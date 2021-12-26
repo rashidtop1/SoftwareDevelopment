@@ -1,0 +1,16 @@
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.exe
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.deps.json
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.runtimeconfig.json
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.runtimeconfig.dev.json
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.dll
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\ref\SoftwareDevelopment.dll
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\bin\Debug\net5.0\SoftwareDevelopment.pdb
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.csprojAssemblyReference.cache
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.AssemblyInfoInputs.cache
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.AssemblyInfo.cs
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.csproj.CoreCompileInputs.cache
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.dll
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\ref\SoftwareDevelopment.dll
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.pdb
+C:\Users\Рашид\source\repos\SoftwareDevelopment\SoftwareDevelopment\obj\Debug\net5.0\SoftwareDevelopment.genruntimeconfig.cache
