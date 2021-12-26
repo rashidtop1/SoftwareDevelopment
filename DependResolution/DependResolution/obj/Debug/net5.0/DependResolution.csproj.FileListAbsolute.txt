@@ -1,0 +1,16 @@
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.exe
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.deps.json
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.runtimeconfig.json
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.runtimeconfig.dev.json
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.dll
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\ref\DependResolution.dll
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\bin\Debug\net5.0\DependResolution.pdb
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.csprojAssemblyReference.cache
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.AssemblyInfoInputs.cache
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.AssemblyInfo.cs
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.csproj.CoreCompileInputs.cache
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.dll
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\ref\DependResolution.dll
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.pdb
+C:\Users\Рашид\source\repos\DependResolution\DependResolution\obj\Debug\net5.0\DependResolution.genruntimeconfig.cache
