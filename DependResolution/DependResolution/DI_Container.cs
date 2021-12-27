@@ -21,8 +21,16 @@ namespace DependResolution
         {
             dependencies.Add(new Descriptor(typeof(TService), typeof(TImplementation), ServiceLifeTime.Singleton));
         }
-        public T Get<T>() => (T)Get(typeof(T));
+
+
         public object Get(Type serviceType)
+        {
+            List<Type> listik = new List<Type>();
+
+            return Get(serviceType, listik);
+        }
+        
+        public object Get(Type serviceType, List<Type> parlist)
         {
             var descriptor = dependencies.SingleOrDefault(x => x.ServiceType == serviceType);
             if (descriptor == null)
@@ -35,10 +43,22 @@ namespace DependResolution
             }
             var type = descriptor.ImplementationType;
             var construct = type.GetConstructors().First();
-            if (construct.GetParameters().Any(x => CheckCycled(serviceType, x.ParameterType)))
-            {
-                throw new Exception("Цикл");
-            }
+
+            List<object> Dishare = new List<object>();
+
+             foreach (var parameter in construct.GetParameters())
+               {
+                if (parlist.Contains(serviceType))
+                {
+                    throw new Exception("Цикл.");
+                }
+                parlist.Add(serviceType);
+                var newParameter = Get(parameter.ParameterType, parlist);
+                parlist.Remove(serviceType);
+                Dishare.Add(newParameter);
+               }
+
+            
             var parametr = construct.GetParameters().Select(x => Get(x.ParameterType)).ToArray();
             var implementation = Activator.CreateInstance(type, parametr);
             if (descriptor.LifeTime == ServiceLifeTime.Singleton)
@@ -46,13 +66,6 @@ namespace DependResolution
                 descriptor.Implementation = implementation;
             }
             return implementation;
-        }
-        public bool CheckCycled(Type serviceType, Type parametrType)
-        {
-            var descriptor = dependencies.SingleOrDefault(x => x.ServiceType == parametrType);
-            var type = descriptor.ImplementationType;
-            var ConstructType = type.GetConstructors().First();
-            return ConstructType.GetParameters().Any(x => Equals(serviceType, x.ParameterType));
         }
     }
 }
